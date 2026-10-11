@@ -12,6 +12,7 @@ The Application shows fuel and EV charging prices from official public sources. 
 *   **How you use the Application.** Searches, filters, the stations you open and the navigation app you choose are used to learn your preferences (for example your usual fuel). Anonymous usage analytics are only collected if you turn them on in Profile → Privacy.
 *   **Vehicle data (optional).** If you connect a Bluetooth OBD-II adapter, the Application reads your car's VIN, odometer, fuel level and fault codes to warn you before you run low and to track maintenance.
 *   **Crash reports.** When the Application crashes or hits an error, a report with the error, app version, device model and operating system is sent to Firebase Crashlytics. Crash reports contain no user identifier and no location.
+*   **IP address.** The servers see your device's IP address with every request. It is used to limit abuse (rate limiting) and appears in the hosting provider's request logs, which are kept for a short time.
 *   **Notifications.** If you allow notifications, a push token is stored to send low-fuel alerts, maintenance reminders and price drops at your favourite stations.
 
 The Application does not use Artificial Intelligence (AI) technologies to process your data or provide features.
@@ -26,7 +27,9 @@ The Application relies on the following services, which process data on the Serv
 *   [Firebase Crashlytics and Remote Config](https://firebase.google.com/support/privacy/) (crash reports, feature settings)
 *   [Expo](https://expo.dev/privacy) (push notifications)
 *   [Google Maps](https://policies.google.com/privacy) (the map on Android)
+*   [Apple Maps](https://www.apple.com/legal/privacy/) (the map on iOS)
 *   [Photon by komoot](https://www.komoot.com/privacy) (place search, which receives the text you search for)
+*   [openrouteservice](https://openrouteservice.org/privacy-policy/) (route planning for "Along my route" where available, which receives the start and destination coordinates)
 
 Some maintenance links and garage offers are partner links. Partners receive only an anonymous click reference, never your personal data.
 
@@ -45,7 +48,7 @@ The Service Provider may disclose User Provided and Automatically Collected Info
 
 **Data Retention Policy**
 
-Your data is kept while you use the Application. Deleting your account removes your account and synced data. Price history is kept for a limited time and is not linked to you. If you'd like the Service Provider to delete data you have provided, please contact them at zupilupiapps@gmail.com and they will respond in a reasonable time.
+Your data is kept while you use the Application. Deleting your account removes your account and synced data. Price history is kept for a limited time and is not linked to you. Crash reports are kept by Firebase Crashlytics for up to 90 days. If you'd like the Service Provider to delete data you have provided, please contact them at zupilupiapps@gmail.com and they will respond in a reasonable time.
 
 **Children**
 
