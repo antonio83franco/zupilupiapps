@@ -1,3 +1,5 @@
+![Tanka logo](logo.png){: width="160" height="160"}
+
 **Tanka**
 
 The cheapest fuel and charging near you.
